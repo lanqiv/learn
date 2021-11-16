@@ -1,0 +1,5 @@
+创建微服务
+    1.创建模块，导入依赖
+    2.创建SpringBoot主类
+    3.加入配置文件
+    4.创建必要的接口和实现类(controller service dao)

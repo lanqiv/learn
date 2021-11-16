@@ -1,0 +1,19 @@
+创建微服务
+    1.创建模块，导入依赖
+    2.创建SpringBoot主类
+    3.加入配置文件
+    4.创建必要的接口和实现类(controller service dao)
+服务治理
+    服务治理是微服务架构中最核心最基本的模块，用于实现各个微服务的自动化注册和发现
+    组件服务注册中心-功能
+        1.服务发现 服务注册（Provider）和订阅(Consumer)
+        2.服务配置 Provider注册和Consumer订阅微服务相关配置，主动推送配置给Provider和Consumer
+        3.健康检查 检测Provider的健康(心跳)，如发现异常，执行服务剔除
+    常见注册中心
+        Zookeeper
+        Eurka
+        Consul
+        Nacos
+    Nacos安装与下载
+        1.下载并解压 执行bin下的startup.cmd 就启动了
+
