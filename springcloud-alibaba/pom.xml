@@ -28,7 +28,7 @@
         <project.reporting.outputEcoding>UTF-8</project.reporting.outputEcoding>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
-    </properties>>
+    </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>
